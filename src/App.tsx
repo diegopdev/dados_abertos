@@ -1,6 +1,7 @@
 import React from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import HomeContainer from "./containers/HomeContainer"
 
 function App(): JSX.Element {
   return (
@@ -20,6 +21,7 @@ function App(): JSX.Element {
           Learn React
         </a>
       </header>
+      <HomeContainer />
     </div>
   )
 }
